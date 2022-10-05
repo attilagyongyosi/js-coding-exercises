@@ -9,9 +9,10 @@
         "url": "https://attilagyongyosi.com"
     },
     "scripts": {
-        "test": "vitest run"
+        "test": "vitest run --coverage"
     },
     "devDependencies": {
+        "@vitest/coverage-c8": "0.23.4",
         "vite": "3.1.4",
         "vitest": "0.23.4"
     }
